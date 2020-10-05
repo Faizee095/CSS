@@ -35,12 +35,24 @@ body{
 #mainNav li:hover {
   background: #aaa;
 }
+#jumbo {
+  background-image: url('css.png');
+  background-position: center center;
+  min-height: 300px;
+}
 #main {
   /* float: right; */
   /* {float will keep that seection floating in a particular poisiton as in this case on the right poisition.} */
   width: 70%;
   padding: 0 30px;
   box-sizing: border-box;
+}
+#mainFooter {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  /* padding: 10px;
+  margin-top: 20px; */
 }
 /* h1{
   color: rebeccapurple;
