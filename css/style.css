@@ -15,7 +15,6 @@ body{
 #mainNav {
   background: #ccc;
   color: black;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -36,7 +35,13 @@ body{
 #mainNav li:hover {
   background: #aaa;
 }
-
+#main {
+  /* float: right; */
+  /* {float will keep that seection floating in a particular poisiton as in this case on the right poisition.} */
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
 /* h1{
   color: rebeccapurple;
 } */
