@@ -6,6 +6,7 @@ body{
 .container{
   width: 80%;
   margin: auto;
+  
 }
 #mainheader{
   background: #333333;
@@ -31,6 +32,7 @@ body{
   color: black;
   text-decoration: none;
   font-size: 18px;
+  
 }
 #mainNav li:hover {
   background: #aaa;
@@ -46,6 +48,10 @@ body{
   width: 70%;
   padding: 0 30px;
   box-sizing: border-box;
+  background-image: url('side.jpg');
+  background-position: center center;
+  min-height: 150px;
+
 }
 #mainFooter {
   background: #333;
@@ -54,11 +60,12 @@ body{
   /* padding: 10px;
   margin-top: 20px; */
 }
-/* h1{
-  color: rebeccapurple;
-} */
+h2{
+  background-color: yellow;
+}
 
 p {
+  
   border: 3px solid green;
   padding: 20px;
   margin-top: 40px;
